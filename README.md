@@ -10,13 +10,17 @@ activity life cycle, basic XML and a few other Android development related topic
 
 Tested Devices: 
 
--Samsung Galaxy S4 GT-I9505G
+	-Samsung Galaxy S4 GT-I9505G
+	-Nexus 7 (First Generation)
 
--Nexus 7 (First Generation)
+
+
 
 *Parts of this code have been lost. I started building this applicaiton before I knew about Git and GitHub. Unfortunately, this was not intially
 backed up under version control when I built it. 
 
 
+
 Start of development: July 2013
+
 Latest Update: Feb 19, 2013 
