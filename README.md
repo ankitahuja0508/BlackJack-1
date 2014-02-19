@@ -9,7 +9,6 @@ application, but to teach myself the basics of Android development over my summe
 activity life cycle, basic XML and a few other Android development related topics.  
 
 Tested Devices: 
-
 	-Samsung Galaxy S4 GT-I9505G
 	-Nexus 7 (First Generation)
 
