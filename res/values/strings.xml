@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">!BlackJackGame</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="home_blackjack_title">BLACKJACK</string>
+    <string name="home_play_button">Play</string>
+    <string name="home_rules_button">Rules</string>
+    <string name="title_activity_game_play">GamePlayActivity</string>
+    <string name="game_dealer_text">Dealer</string>
+    <string name="game_player_text">Player</string>
+    <string name="game_hit_button">Hit</string>
+    <string name="game_stay_button">Stay</string>
+     <string name="game_dealer_score_label">Dealer Score:</string>
+     <string name="game_player_score_label">Player Score:</string>
+     
+</resources>

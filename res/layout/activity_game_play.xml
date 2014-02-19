@@ -1,0 +1,203 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".GamePlayActivity" >
+
+    <ImageView
+        android:id="@+id/dealercard3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/dealercard1"
+        android:layout_below="@+id/dealercard1"
+        android:layout_marginTop="22dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:src="@drawable/dealerdown" />
+
+    <ImageView
+        android:id="@+id/dealercard5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/dealercard4"
+        android:layout_toRightOf="@+id/dealercard4"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:src="@drawable/dealerdown" />
+
+    <ImageView
+        android:id="@+id/dealercard4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/dealercard3"
+        android:layout_toRightOf="@+id/dealercard3"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:src="@drawable/dealerdown" />
+
+    <ImageView
+        android:id="@+id/dealercard2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/dealercard3"
+        android:layout_toRightOf="@+id/dealercard1"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:src="@drawable/dealerdown" />
+
+    <TextView
+        android:id="@+id/dealertitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:text="@string/game_dealer_text" />
+
+    <TextView
+        android:id="@+id/playertitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/dealercard3"
+        android:layout_below="@+id/dealercard3"
+        android:layout_marginTop="50dp"
+        android:text="@string/game_player_text" />
+
+    <ImageView
+        android:id="@+id/playercard2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/dealercard4"
+        android:layout_alignTop="@+id/playercard1"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:src="@drawable/dealerdown" />
+
+    <ImageView
+        android:id="@+id/playercard3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/playercard1"
+        android:layout_below="@+id/playercard1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:src="@drawable/dealerdown" />
+
+    <ImageView
+        android:id="@+id/playercard4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/playercard1"
+        android:layout_toRightOf="@+id/playercard1"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:src="@drawable/dealerdown" />
+
+    <ImageView
+        android:id="@+id/playercard5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/playercard4"
+        android:layout_toRightOf="@+id/playercard4"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:src="@drawable/dealerdown" />
+
+    <ImageView
+        android:id="@+id/playercard1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/playertitle"
+        android:layout_toLeftOf="@+id/playercard2"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:src="@drawable/dealerdown" />
+
+    <ImageView
+        android:id="@+id/dealercard1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/dealertitle"
+        android:layout_below="@+id/dealertitle"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:src="@drawable/dealerdown" />
+
+    <Button
+        android:id="@+id/playerhit"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/playercard3"
+        android:layout_below="@+id/playercard4"
+        android:text="@string/game_hit_button" />
+
+    <Button
+        android:id="@+id/playerstay"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/playerhit"
+        android:layout_alignBottom="@+id/playerhit"
+        android:layout_centerHorizontal="true"
+        android:text="@string/game_stay_button" />
+
+    <TextView
+        android:id="@+id/dealerscorelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/dealercard2"
+        android:layout_centerHorizontal="true"
+        android:text="@string/game_dealer_score_label" />
+
+    <TextView
+        android:id="@+id/playerscorelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/playercard5"
+        android:layout_alignLeft="@+id/dealerscorelabel"
+        android:text="@string/game_player_score_label" />
+
+    <EditText
+        android:id="@+id/dealercardsvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/dealerscorelabel"
+        android:layout_alignBottom="@+id/dealerscorelabel"
+        android:editable="false"
+        android:layout_toRightOf="@+id/dealerscorelabel"
+        android:text="10"
+        android:ems="5" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/playercardsvalue"
+        android:editable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/playercard5"
+        android:layout_toRightOf="@+id/playerscorelabel"
+        android:text="10"
+        android:ems="5" />
+
+</RelativeLayout>
