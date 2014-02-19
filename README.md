@@ -16,7 +16,7 @@ Tested Devices:
 
 
 
-*Parts of this code have been lost. I started building this applicaiton before I knew about Git and GitHub. Unfortunately, this was not intially
+*Parts of this code have been lost. I started building this applicaiton before I knew about GIT and GitHub. Unfortunately, this was not intially
 backed up under version control when I built it. 
 
 
